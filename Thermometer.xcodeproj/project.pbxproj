@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3DBCBD712A98F7D700D21FB5 /* Toolbox in Frameworks */ = {isa = PBXBuildFile; productRef = 3DBCBD702A98F7D700D21FB5 /* Toolbox */; };
-		3DBCBD762A9902CA00D21FB5 /* ThermometerViews in Frameworks */ = {isa = PBXBuildFile; productRef = 3DBCBD752A9902CA00D21FB5 /* ThermometerViews */; };
+		3DBCBD792A9908D500D21FB5 /* ThermometerViews in Resources */ = {isa = PBXBuildFile; fileRef = 3DBCBD782A9908D500D21FB5 /* ThermometerViews */; };
+		3DBCBD7B2A9908FE00D21FB5 /* ThermometerViews in Frameworks */ = {isa = PBXBuildFile; productRef = 3DBCBD7A2A9908FE00D21FB5 /* ThermometerViews */; };
 		3DFC3E242A9896B300F6771B /* ThermometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC3E232A9896B300F6771B /* ThermometerApp.swift */; };
 		3DFC3E262A9896B300F6771B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC3E252A9896B300F6771B /* ContentView.swift */; };
 		3DFC3E282A9896B600F6771B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC3E272A9896B600F6771B /* Assets.xcassets */; };
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3DBCBD732A99013800D21FB5 /* ThermometerViews */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ThermometerViews; path = ../ThermometerViews; sourceTree = "<group>"; };
+		3DBCBD782A9908D500D21FB5 /* ThermometerViews */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ThermometerViews; sourceTree = "<group>"; };
 		3DFC3E202A9896B300F6771B /* Thermometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thermometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFC3E232A9896B300F6771B /* ThermometerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerApp.swift; sourceTree = "<group>"; };
 		3DFC3E252A9896B300F6771B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,7 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DBCBD712A98F7D700D21FB5 /* Toolbox in Frameworks */,
-				3DBCBD762A9902CA00D21FB5 /* ThermometerViews in Frameworks */,
+				3DBCBD7B2A9908FE00D21FB5 /* ThermometerViews in Frameworks */,
 				3DFC3E4F2A989E4500F6771B /* Wave in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,14 +79,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3DBCBD722A99013800D21FB5 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				3DBCBD732A99013800D21FB5 /* ThermometerViews */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		3DBCBD742A9902CA00D21FB5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,10 +86,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3DBCBD772A9908D500D21FB5 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				3DBCBD782A9908D500D21FB5 /* ThermometerViews */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
 		3DFC3E172A9896B300F6771B = {
 			isa = PBXGroup;
 			children = (
-				3DBCBD722A99013800D21FB5 /* Packages */,
+				3DBCBD772A9908D500D21FB5 /* Packages */,
 				3DFC3E222A9896B300F6771B /* Thermometer */,
 				3DFC3E332A9896B600F6771B /* ThermometerTests */,
 				3DFC3E3D2A9896B600F6771B /* ThermometerUITests */,
@@ -170,7 +171,7 @@
 			packageProductDependencies = (
 				3DFC3E4E2A989E4500F6771B /* Wave */,
 				3DBCBD702A98F7D700D21FB5 /* Toolbox */,
-				3DBCBD752A9902CA00D21FB5 /* ThermometerViews */,
+				3DBCBD7A2A9908FE00D21FB5 /* ThermometerViews */,
 			);
 			productName = Thermometer;
 			productReference = 3DFC3E202A9896B300F6771B /* Thermometer.app */;
@@ -265,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DFC3E2B2A9896B600F6771B /* Preview Assets.xcassets in Resources */,
+				3DBCBD792A9908D500D21FB5 /* ThermometerViews in Resources */,
 				3DFC3E282A9896B600F6771B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -642,7 +644,7 @@
 			package = 3DBCBD6F2A98F7D700D21FB5 /* XCRemoteSwiftPackageReference "Toolbox" */;
 			productName = Toolbox;
 		};
-		3DBCBD752A9902CA00D21FB5 /* ThermometerViews */ = {
+		3DBCBD7A2A9908FE00D21FB5 /* ThermometerViews */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ThermometerViews;
 		};
