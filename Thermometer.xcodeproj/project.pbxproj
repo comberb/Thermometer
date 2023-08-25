@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DBCBD712A98F7D700D21FB5 /* Toolbox in Frameworks */ = {isa = PBXBuildFile; productRef = 3DBCBD702A98F7D700D21FB5 /* Toolbox */; };
+		3DBCBD762A9902CA00D21FB5 /* ThermometerViews in Frameworks */ = {isa = PBXBuildFile; productRef = 3DBCBD752A9902CA00D21FB5 /* ThermometerViews */; };
 		3DFC3E242A9896B300F6771B /* ThermometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC3E232A9896B300F6771B /* ThermometerApp.swift */; };
 		3DFC3E262A9896B300F6771B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC3E252A9896B300F6771B /* ContentView.swift */; };
 		3DFC3E282A9896B600F6771B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC3E272A9896B600F6771B /* Assets.xcassets */; };
@@ -15,11 +17,6 @@
 		3DFC3E3F2A9896B600F6771B /* ThermometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC3E3E2A9896B600F6771B /* ThermometerUITests.swift */; };
 		3DFC3E412A9896B600F6771B /* ThermometerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC3E402A9896B600F6771B /* ThermometerUITestsLaunchTests.swift */; };
 		3DFC3E4F2A989E4500F6771B /* Wave in Frameworks */ = {isa = PBXBuildFile; productRef = 3DFC3E4E2A989E4500F6771B /* Wave */; };
-		3DFC3E522A989E8A00F6771B /* VSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC3E512A989E8A00F6771B /* VSlider.swift */; };
-		3DFC3E552A989EBB00F6771B /* LinearGradient+rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC3E542A989EBB00F6771B /* LinearGradient+rainbow.swift */; };
-		3DFC3E572A989ED100F6771B /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC3E562A989ED100F6771B /* UIColor+hex.swift */; };
-		3DFC3E592A98A48E00F6771B /* Thermometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC3E582A98A48E00F6771B /* Thermometer.swift */; };
-		3DFC3E5B2A98BC8600F6771B /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC3E5A2A98BC8600F6771B /* Marker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DBCBD732A99013800D21FB5 /* ThermometerViews */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ThermometerViews; path = ../ThermometerViews; sourceTree = "<group>"; };
 		3DFC3E202A9896B300F6771B /* Thermometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thermometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFC3E232A9896B300F6771B /* ThermometerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerApp.swift; sourceTree = "<group>"; };
 		3DFC3E252A9896B300F6771B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,11 +48,6 @@
 		3DFC3E3A2A9896B600F6771B /* ThermometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFC3E3E2A9896B600F6771B /* ThermometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerUITests.swift; sourceTree = "<group>"; };
 		3DFC3E402A9896B600F6771B /* ThermometerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3DFC3E512A989E8A00F6771B /* VSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSlider.swift; sourceTree = "<group>"; };
-		3DFC3E542A989EBB00F6771B /* LinearGradient+rainbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinearGradient+rainbow.swift"; sourceTree = "<group>"; };
-		3DFC3E562A989ED100F6771B /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
-		3DFC3E582A98A48E00F6771B /* Thermometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thermometer.swift; sourceTree = "<group>"; };
-		3DFC3E5A2A98BC8600F6771B /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DBCBD712A98F7D700D21FB5 /* Toolbox in Frameworks */,
+				3DBCBD762A9902CA00D21FB5 /* ThermometerViews in Frameworks */,
 				3DFC3E4F2A989E4500F6771B /* Wave in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,13 +78,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DBCBD722A99013800D21FB5 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				3DBCBD732A99013800D21FB5 /* ThermometerViews */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		3DBCBD742A9902CA00D21FB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3DFC3E172A9896B300F6771B = {
 			isa = PBXGroup;
 			children = (
+				3DBCBD722A99013800D21FB5 /* Packages */,
 				3DFC3E222A9896B300F6771B /* Thermometer */,
 				3DFC3E332A9896B600F6771B /* ThermometerTests */,
 				3DFC3E3D2A9896B600F6771B /* ThermometerUITests */,
 				3DFC3E212A9896B300F6771B /* Products */,
+				3DBCBD742A9902CA00D21FB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,8 +118,6 @@
 		3DFC3E222A9896B300F6771B /* Thermometer */ = {
 			isa = PBXGroup;
 			children = (
-				3DFC3E532A989E9E00F6771B /* Extensions */,
-				3DFC3E502A989E7B00F6771B /* Views */,
 				3DFC3E232A9896B300F6771B /* ThermometerApp.swift */,
 				3DFC3E252A9896B300F6771B /* ContentView.swift */,
 				3DFC3E272A9896B600F6771B /* Assets.xcassets */,
@@ -141,25 +151,6 @@
 			path = ThermometerUITests;
 			sourceTree = "<group>";
 		};
-		3DFC3E502A989E7B00F6771B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3DFC3E512A989E8A00F6771B /* VSlider.swift */,
-				3DFC3E582A98A48E00F6771B /* Thermometer.swift */,
-				3DFC3E5A2A98BC8600F6771B /* Marker.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		3DFC3E532A989E9E00F6771B /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				3DFC3E542A989EBB00F6771B /* LinearGradient+rainbow.swift */,
-				3DFC3E562A989ED100F6771B /* UIColor+hex.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,6 +169,8 @@
 			name = Thermometer;
 			packageProductDependencies = (
 				3DFC3E4E2A989E4500F6771B /* Wave */,
+				3DBCBD702A98F7D700D21FB5 /* Toolbox */,
+				3DBCBD752A9902CA00D21FB5 /* ThermometerViews */,
 			);
 			productName = Thermometer;
 			productReference = 3DFC3E202A9896B300F6771B /* Thermometer.app */;
@@ -253,6 +246,7 @@
 			mainGroup = 3DFC3E172A9896B300F6771B;
 			packageReferences = (
 				3DFC3E4D2A989E4500F6771B /* XCRemoteSwiftPackageReference "Wave" */,
+				3DBCBD6F2A98F7D700D21FB5 /* XCRemoteSwiftPackageReference "Toolbox" */,
 			);
 			productRefGroup = 3DFC3E212A9896B300F6771B /* Products */;
 			projectDirPath = "";
@@ -296,13 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DFC3E522A989E8A00F6771B /* VSlider.swift in Sources */,
-				3DFC3E552A989EBB00F6771B /* LinearGradient+rainbow.swift in Sources */,
-				3DFC3E592A98A48E00F6771B /* Thermometer.swift in Sources */,
-				3DFC3E572A989ED100F6771B /* UIColor+hex.swift in Sources */,
 				3DFC3E262A9896B300F6771B /* ContentView.swift in Sources */,
 				3DFC3E242A9896B300F6771B /* ThermometerApp.swift in Sources */,
-				3DFC3E5B2A98BC8600F6771B /* Marker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,6 +618,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3DBCBD6F2A98F7D700D21FB5 /* XCRemoteSwiftPackageReference "Toolbox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/comberb/Toolbox";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		3DFC3E4D2A989E4500F6771B /* XCRemoteSwiftPackageReference "Wave" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/comberb/Wave";
@@ -640,6 +637,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3DBCBD702A98F7D700D21FB5 /* Toolbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DBCBD6F2A98F7D700D21FB5 /* XCRemoteSwiftPackageReference "Toolbox" */;
+			productName = Toolbox;
+		};
+		3DBCBD752A9902CA00D21FB5 /* ThermometerViews */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThermometerViews;
+		};
 		3DFC3E4E2A989E4500F6771B /* Wave */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3DFC3E4D2A989E4500F6771B /* XCRemoteSwiftPackageReference "Wave" */;

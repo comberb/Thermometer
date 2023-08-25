@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import ThermometerViews
 
 struct ContentView: View {
     @State private var progress: CGFloat = 0.5
